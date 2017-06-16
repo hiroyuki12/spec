@@ -1,0 +1,17 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  sudo: no
+  roles:
+    - homebrew
+    - homebrew-cask
+      #    - ruby-build
+  vars:
+    homebrew_packages:
+      - rbenv
+      - rbenv-default-gems
+      - rbenv-gemset
+      - ruby-build
+        
+        #      - mas
+        #      - wget
