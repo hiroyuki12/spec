@@ -9,9 +9,12 @@
   vars:
     homebrew_packages:
       - rbenv
-      - rbenv-default-gems
-      - rbenv-gemset
-      - ruby-build
+      - ansible
+      - peco
+      - wget
+      - mas
+      - go
+      - python
+#      - docker-compose
+
         
-        #      - mas
-        #      - wget
