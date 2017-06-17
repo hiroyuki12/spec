@@ -8,12 +8,12 @@
       #    - ruby-build
   vars:
     homebrew_packages:
-      - rbenv
-      - ansible
-      - peco
-      - wget
-      - mas
-      - go
+#      - rbenv
+#      - ansible
+#      - peco
+#      - wget
+#      - mas
+#      - go
       - python
 #      - docker-compose
 
